@@ -13,9 +13,13 @@
         <h2>Calcula la media</h2>
         <form>
             <label for="InputValue">Ingrese el valor</label>
-            <input type="number" id="InputValue" />
-            <button type="button" onclick="calculoMedia()">Calcular Media</button>
+            <input type="number" id="InputValue" pattern="[0-9]" />
+            <button type="button" onclick="botonMedia()">Calcular Media</button>
         </form>
+    </section>
+    <section>
+        <textarea cols="50" rows="10" id="datos" readonly></textarea> 
+        <label for="mediaValue" id="mediaValue"></label>
     </section>
     <script src="./media.js"></script>
 </body>
