@@ -1,0 +1,16 @@
+body{
+    background-color: beige;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.caja{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 50%;
+    margin: 5px;
+}
+
